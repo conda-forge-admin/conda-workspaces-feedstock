@@ -28,16 +28,17 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - conda >=24.7
-    - conda-lockfiles >=0.1
-    - conda-spawn >=0.0.5
+    - conda >=26.3
+    - conda-lockfiles >=0.2.0
+    - conda-spawn >=0.1.0
+    - backports.zstd
     - jinja2 >=3.0
     - packaging >=21.0
     - platformdirs >=3.0
     - rich >=13.0
     - tomlkit >=0.13
   run_constraints:
-    - conda-pypi >=0.5.0
+    - conda-pypi >=0.9.0
     - conda-rattler-solver >=0.0.6
 
 tests:
