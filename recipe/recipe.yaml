@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.5.0"
+  version: "0.6.0"
 
 package:
   name: conda-workspaces
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/conda-workspaces/conda_workspaces-${{ version }}.tar.gz
-  sha256: b074cc8b879547eda414a22e72358ef082db01d4c1a72a1f1772ef7aa59a085e
+  sha256: b9f5a975504e5782850347256555f285edfa70e379935c2701e854cd8d1adba4
 
 build:
   number: 0
