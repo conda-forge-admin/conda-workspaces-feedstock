@@ -31,12 +31,12 @@ requirements:
     - conda >=26.3
     - conda-lockfiles >=0.2.0
     - conda-spawn >=0.1.0
-    - backports.zstd
+    - backports.zstd >=1.0.0
     - jinja2 >=3.0
     - packaging >=21.0
     - platformdirs >=3.0
     - rich >=13.0
-    - tomlkit >=0.13
+    - tomlkit >=0.13,!=0.15.0
   run_constraints:
     - conda-pypi >=0.9.0
     - conda-rattler-solver >=0.0.6
