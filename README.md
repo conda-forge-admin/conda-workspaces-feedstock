@@ -160,6 +160,3 @@ Feedstock Maintainers
 * [@jezdez](https://github.com/jezdez/)
 * [@travishathaway](https://github.com/travishathaway/)
 
-
-<!-- dummy commit to enable rerendering -->
-
