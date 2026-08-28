@@ -21,6 +21,7 @@ or pyproject.toml) and let conda handle the solving and installation.
 Optional dependencies for additional features:
 - conda-pypi: PyPI dependency resolution and installation
 - conda-rattler-solver: rattler solver backend (required for PyPI deps)
+- conda-sboms: CycloneDX workspace SBOM export
 
 Current build status
 ====================
